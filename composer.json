@@ -1,0 +1,19 @@
+{
+    "name": "tinhnguyen/simple-coupon-import",
+    "description": "Import coupon from CSV & API",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Tinhnguyen\\SimpleCouponImport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nguyenvantinh",
+            "email": "tinhnguyenvan91@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
